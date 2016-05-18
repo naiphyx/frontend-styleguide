@@ -42,3 +42,10 @@ Frontend Assignment for the 4th Semester mmt. The task consists of designing a S
 ### Media
 
 ### Navigation
+
+---
+
+### For Dev
+* install gulp-cli globally via npm
+* use npm install
+* run gulp
