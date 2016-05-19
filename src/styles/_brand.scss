@@ -1,0 +1,15 @@
+// Theory, Colors, Typo, Logo
+
+#colors {
+
+	section {
+		display: flex;
+		justify-content: space-between;
+
+		.colorfield {
+		width: 200px;
+		height: 200px;
+		background: black;
+	}
+	}
+}
