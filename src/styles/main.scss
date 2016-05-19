@@ -1,15 +1,18 @@
 @import 'variables';
 @import 'brand';
+@import 'uielements';
+@import 'methology';
 
 body {
 	margin: 0;
 	padding: 0;
 
-		header {
+	header {
 		height: 100vh;
 		width: 100vw;
 		text-align: center;
-		background: $pink;
+		background: url(../assets/landscape.gif) $pink;
+		background-size: cover;
 		color: #fff;
 		display: flex;
 		flex-direction: column;
@@ -23,6 +26,12 @@ body {
 		article {
 			box-sizing: border-box;
 			margin: 50px 0;
+
+			.runtext {
+				margin: 0 auto;
+				max-width: 70%;
+				text-align: justify;
+			}
 		}
 	}
 }

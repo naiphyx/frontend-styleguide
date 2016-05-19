@@ -1,15 +1,32 @@
-// Theory, Colors, Typo, Logo
+// BRAND: Theory, Colors, Typo, Logo
 
+// **************
+// *** COLORS ***
+// **************
 #colors {
 
 	section {
-		display: flex;
-		justify-content: space-between;
+		
+		&.colorfieldrow.primary {
+			display: flex;
+			justify-content: space-between;
 
-		.colorfield {
-		width: 200px;
-		height: 200px;
-		background: black;
-	}
+			.colorfield {
+				width: 210px;
+				height: 210px;
+				background: black;
+			}
+		}
+
+		&.colorfieldrow.secondary {
+			display: flex;
+			justify-content: space-between;
+
+			.colorfield {
+				width: 130px;
+				height: 130px;
+				background: black;
+			}
+		}
 	}
 }

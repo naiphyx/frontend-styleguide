@@ -17,7 +17,7 @@ gulp.task('scripts', function() {
 
 gulp.task('assets', function() {
 	return gulp.src('src/assets/**/*')
-			.pipe(gulp.dest('dist'))
+			.pipe(gulp.dest('dist/assets'))
 			.pipe(browsersync.stream());
 })
 
