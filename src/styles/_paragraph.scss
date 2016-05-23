@@ -1,0 +1,6 @@
+p.justified-paragraph {
+  background-color: $white;
+  text-align: justify;
+  text-justify: inter-word; // IE only
+  padding: 1em;
+}
