@@ -1,5 +1,25 @@
-$fonts: Helvetica, sans-serif;
+@font-face {
+    font-family: Avenir;
+    src: url(../assets/fonts/AvenirLTStd-Light.otf);
+    font-weight: 100;
+}
 
+@font-face {
+    font-family: Avenir;
+    src: url(../assets/fonts/AvenirLTStd-Black.otf);
+    font-weight: 700;
+}
+
+$fontstack: Avenir, Helvetica, sans-serif;
+
+//primary colors
 $pink: #ff9189;
 $darkblue: #295673;
 $lightblue: #4089b2;
+
+//secondary colors
+$white: #fff;
+$lightgray: #ececec;
+$darkgray: #393939;
+$black: #000;
+$highlightgreen: #b1e6a7;

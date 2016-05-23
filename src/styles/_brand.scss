@@ -14,9 +14,15 @@
 			.colorfield {
 				width: 210px;
 				height: 210px;
+				color: $white;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				text-align: center;
 
 				&.pink {
 					background: $pink;
+					//border: 1px solid darken($pink, 5%);
 				}
 
 				&.lightblue {
@@ -36,7 +42,33 @@
 			.colorfield {
 				width: 130px;
 				height: 130px;
-				background: black;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				text-align: center;
+
+				&.highlightgreen {
+					background: $highlightgreen;
+					color: $white;
+				}
+
+				&.white {
+					background: $white;
+				}
+
+				&.lightgray {
+					background: $lightgray;
+				}
+
+				&.darkgray {
+					background: $darkgray;
+					color: $white;
+				}
+
+				&.black {
+					background: $black;
+					color: $white;
+				}
 			}
 		}
 	}
@@ -48,6 +80,19 @@
 			background: #fff;
 			padding: 20px 30px;
 			margin-bottom: 20px;
+			font-size: 130%;
+
+			.largerFont {
+				font-size: 800%;
+			}
+
+			&.avenirlight {
+				font-weight: 100;
+			}
+
+			&.avenirblack {
+				font-weight: 700;
+			}
 		}
 	}
 }
