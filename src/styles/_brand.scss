@@ -14,7 +14,18 @@
 			.colorfield {
 				width: 210px;
 				height: 210px;
-				background: black;
+
+				&.pink {
+					background: $pink;
+				}
+
+				&.lightblue {
+					background: $lightblue;
+				}
+
+				&.darkblue {
+					background: $darkblue;
+				}
 			}
 		}
 
@@ -36,6 +47,7 @@
 		&.typoarea {
 			background: #fff;
 			padding: 20px 30px;
+			margin-bottom: 20px;
 		}
 	}
 }
