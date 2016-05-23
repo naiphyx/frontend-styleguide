@@ -1,18 +1,20 @@
-@mixin heading-mixin($font-size, $font-kerning) {
+@mixin heading-mixin($font-size, $font-kerning, $color) {
 	font-family: $fontstack;
 	font-size: $font-size;
-	font-kerning: $font-kerning;
-	color: $black;
+	font-weight: bold;
+	letter-spacing: $font-kerning;
+	color: $color;
+	text-transform: uppercase;
 }
 
 h1 {
-	@include heading-mixin(34px, 50px);
+	@include heading-mixin(34px, 2px, $darkblue);
 }
 
 h2 {
-	@include heading-mixin(25px, 50px);
+	@include heading-mixin(25px, 1px, $lightblue);
 }
 
 h3 {
-	@include heading-mixin(20px, 50px);
+	@include heading-mixin(20px, 1px, $lightblue);
 }

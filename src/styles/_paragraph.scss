@@ -4,3 +4,9 @@ p.justified-paragraph {
   text-justify: inter-word; // IE only
   padding: 1em;
 }
+
+p.code-snippet {
+	font-family: $codefont;
+	padding: 10px 5px 10px 20px;
+	background-color: $lightgray;
+}
