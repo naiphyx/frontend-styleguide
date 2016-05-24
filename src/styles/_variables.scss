@@ -10,6 +10,13 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: Baskerville;
+    src: url(../assets/fonts/LibreBaskerville-Bold.ttf);
+    font-weight: 700;
+}
+
+$quote-font: Baskerville, serif;
 $fontstack: Avenir, Helvetica, sans-serif;
 $codefont: "Courier New", Courier, monospace;
 

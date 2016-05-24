@@ -1,0 +1,27 @@
+p.quotation {
+  font-family: $fontstack;
+  text-align: justify;
+  font-style: italic;
+  padding: 0 3.8em 0 2.5em;
+  font-weight: 100;
+  font-size: 18px;
+  background-color: $white;
+
+  &:before, &:after {
+    font-family: $quote-font;
+    font-size: 60pt;
+    color: $pink;
+  }
+
+  &:before {
+    margin: -0.1em -0.75em;
+    content: "\201C";
+    float: left;
+  }
+
+  &:after {
+    margin: -0.25em -0.5em;
+    content: "\201D";
+    float: right;
+  }
+}
