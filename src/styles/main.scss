@@ -35,6 +35,11 @@ body {
 				text-align: justify;
 			}
 
+			.description {
+				background-color: $white;
+				padding: 1em;
+			}
+
 			section {
 				&.center {
 					text-align: center;

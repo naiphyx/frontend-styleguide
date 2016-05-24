@@ -1,0 +1,35 @@
+button.button {
+  text-transform: uppercase;
+  font-family: $fontstack;
+  letter-spacing: 0.2em;
+  padding: 1.2em 2.6em;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0.5em;
+  color: $white;
+  border: none;
+}
+
+button.button-pink {
+  background-color: $pink;
+
+  &:hover {
+    background-color: darken($pink, 2%);
+  }
+}
+
+button.button-green {
+  background-color: $highlightgreen;
+
+  &:hover {
+    background-color: darken($highlightgreen, 2%);
+  }
+}
+
+button.button-blue {
+  background-color: $lightblue;
+
+  &:hover {
+    background-color: darken($lightblue, 2%);
+  }
+}
