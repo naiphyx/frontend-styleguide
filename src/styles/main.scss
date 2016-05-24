@@ -54,6 +54,11 @@ body {
 					padding: 30px;
 					background: $darkblue;
 				}
+
+				&.lightgray-background {
+					padding: 30px;
+					background: $lightgray;
+				}
 			}
 		}
 	}

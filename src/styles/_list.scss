@@ -17,3 +17,10 @@ ul.triangle-list {
     position: relative;
   }
 }
+
+div.two-columns-list {
+  ul {
+    width: 40%;
+    display: inline-block;
+  }
+}
