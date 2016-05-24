@@ -4,6 +4,7 @@ button.button {
   letter-spacing: 0.2em;
   padding: 1.2em 2.6em;
   font-weight: 700;
+  cursor: pointer;
   font-size: 18px;
   margin: 0.5em;
   color: $white;
@@ -22,7 +23,7 @@ button.button-green {
   background-color: $highlightgreen;
 
   &:hover {
-    background-color: darken($highlightgreen, 2%);
+    background-color: darken($highlightgreen, 5%);
   }
 }
 
@@ -30,6 +31,6 @@ button.button-blue {
   background-color: $lightblue;
 
   &:hover {
-    background-color: darken($lightblue, 2%);
+    background-color: darken($lightblue, 5%);
   }
 }

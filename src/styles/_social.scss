@@ -1,0 +1,89 @@
+button.button-social {
+  width: 270px;
+  text-align: left;
+  padding-left: 64px;
+
+  &:before {
+    content: "";
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -3px;
+    background-repeat: no-repeat;
+    background-position: center center;;
+    -webkit-background-size: cover;
+  }
+}
+
+button.button-social.twitter {
+  background-color: $twitter;
+
+  &:hover {
+    background-color: darken($twitter, 3%);
+  }
+
+  &:before {
+    background-image: url('../assets/images/social/twitter-logo.png');
+  }
+}
+
+button.button-social.tumblr {
+  background-color: $tumblr;
+
+  &:hover {
+    background-color: lighten($tumblr, 3%);
+  }
+
+  &:before {
+    background-image: url('../assets/images/social/tumblr-logo.png');
+  }
+}
+
+button.button-social.instagram {
+  background-color: $instagram;
+
+  &:hover {
+    background-color: darken($instagram, 3%);
+  }
+
+  &:before {
+    background-image: url('../assets/images/social/instagram-logo.png');
+  }
+}
+
+button.button-social.facebook {
+  background-color: $facebook;
+
+  &:hover {
+    background-color: lighten($facebook, 3%);
+  }
+
+  &:before {
+    background-image: url('../assets/images/social/facebook-logo.png');
+  }
+}
+
+button.button-social.googleplus {
+  background-color: $googleplus;
+
+  &:hover {
+    background-color: lighten($googleplus, 3%);
+  }
+
+  &:before {
+    background-image: url('../assets/images/social/googlePlus-logo.png');
+  }
+}
+
+button.button-social.deviantart {
+  background-color: $deviantart;
+
+  &:hover {
+    background-color: darken($deviantart, 3%);
+  }
+
+  &:before {
+    background-image: url('../assets/images/social/deviantart-logo.png');
+  }
+}
