@@ -34,6 +34,22 @@ body {
 				max-width: 70%;
 				text-align: justify;
 			}
+
+			section {
+				&.center {
+					text-align: center;
+				}
+
+				&.white-background {
+					padding: 15px 30px;
+					background: $white;
+				}
+
+				&.darkblue-background {
+					padding: 30px;
+					background: $darkblue;
+				}
+			}
 		}
 	}
 }
