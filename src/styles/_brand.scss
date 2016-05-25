@@ -6,141 +6,141 @@
 #colors {
 
 	section {
-		
-		&.colorfieldrow.primary {
-			display: flex;
-			justify-content: space-between;
 
-			.colorfield {
-				width: 210px;
-				height: 210px;
-				color: $white;
-				display: flex;
-				flex-direction: column;
-				justify-content: flex-end;
-				text-align: center;
+    &.colorfieldrow.primary {
+      display: flex;
+      justify-content: space-between;
 
-				&.pink {
-					background: $pink;
-					//border: 1px solid darken($pink, 5%);
-				}
+      .colorfield {
+        width: 210px;
+        height: 210px;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
 
-				&.lightblue {
-					background: $lightblue;
-				}
+        &.pink {
+          background: $pink;
+          //border: 1px solid darken($pink, 5%);
+        }
 
-				&.darkblue {
-					background: $darkblue;
-				}
-			}
-		}
+        &.lightblue {
+          background: $lightblue;
+        }
 
-		&.colorfieldrow.secondary {
-			display: flex;
-			justify-content: space-between;
+        &.darkblue {
+          background: $darkblue;
+        }
+      }
+    }
 
-			.colorfield {
-				width: 130px;
-				height: 130px;
-				display: flex;
-				flex-direction: column;
-				justify-content: flex-end;
-				text-align: center;
+    &.colorfieldrow.secondary {
+      display: flex;
+      justify-content: space-between;
 
-				&.highlightgreen {
-					background: $highlightgreen;
-					color: $white;
-				}
+      .colorfield {
+        width: 130px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
 
-				&.white {
-					background: $white;
-				}
+        &.highlightgreen {
+          background: $highlightgreen;
+          color: $white;
+        }
 
-				&.lightgray {
-					background: $lightgray;
-				}
+        &.white {
+          background: $white;
+        }
 
-				&.darkgray {
-					background: $darkgray;
-					color: $white;
-				}
+        &.lightgray {
+          background: $lightgray;
+        }
 
-				&.black {
-					background: $black;
-					color: $white;
-				}
-			}
-		}
-	}
+        &.darkgray {
+          background: $darkgray;
+          color: $white;
+        }
+
+        &.black {
+          background: $black;
+          color: $white;
+        }
+      }
+    }
+  }
 }
 
 #logostyle {
-	section {
-		&.logorow {
-			display: flex;
-			justify-content: space-around;
-			margin: 20px 0;
+  section {
+    &.logorow {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 0;
 
-			.logodisplay {
-				width: 340px;
-				height: 340px;
-				background: $darkgray;
-				display: flex;
-				flex-direction: column;
-				justify-content: space-around;
+      .logodisplay {
+        width: 340px;
+        height: 340px;
+        background: $darkgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
 
-				&.on-white {
-					background: $white;
-				}
+        &.on-white {
+          background: $white;
+        }
 
-				&.on-dark-background {
-					background: url(../assets/images/fox_background.png);
-					background-size: cover;
-					background-position: center;
-				}
+        &.on-dark-background {
+          background: url(../assets/images/fox_background.png);
+          background-size: cover;
+          background-position: center;
+        }
 
-				&.on-light-background {
-					background: url(../assets/images/snow_background.png);
-					background-size: cover;
-					background-position: center;
-				}
+        &.on-light-background {
+          background: url(../assets/images/snow_background.png);
+          background-size: cover;
+          background-position: center;
+        }
 
-				img {
-					max-height: 150px;
-				}
-			}
-		}
-	}
+        img {
+          max-height: 150px;
+        }
+      }
+    }
+  }
 }
 
 #typo {
-	section {
-		&.typoarea {
-			background: #fff;
-			padding: 20px 30px;
-			margin-bottom: 20px;
-			font-size: 130%;
+  section {
+    &.typoarea {
+      background: #fff;
+      padding: 20px 30px;
+      margin-bottom: 20px;
+      font-size: 130%;
 
-			.largerFont {
-				font-size: 800%;
-			}
+      .largerFont {
+        font-size: 800%;
+      }
 
-			&.avenirlight {
-				font-weight: 100;
-			}
+      &.avenirlight {
+        font-weight: 100;
+      }
 
-			&.avenirlightoblique {
-				font-weight: 100;
-				font-style: oblique;
-			}
+      &.avenirlightoblique {
+        font-weight: 100;
+        font-style: oblique;
+      }
 
-			&.avenirblack {
-				font-weight: 700;
-			}
+      &.avenirblack {
+        font-weight: 700;
+      }
 
-			&.baskervillebold {
-				font-family: $quote-font;
-			}
-		}
-	}
+      &.baskervillebold {
+        font-family: $quote-font;
+      }
+    }
+  }
 }
