@@ -74,6 +74,45 @@
 	}
 }
 
+#logostyle {
+	section {
+		&.logorow {
+			display: flex;
+			justify-content: space-around;
+			margin: 20px 0;
+
+			.logodisplay {
+				width: 340px;
+				height: 340px;
+				background: $darkgray;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+
+				&.on-white {
+					background: $white;
+				}
+
+				&.on-dark-background {
+					background: url(../assets/images/fox_background.png);
+					background-size: cover;
+					background-position: center;
+				}
+
+				&.on-light-background {
+					background: url(../assets/images/snow_background.png);
+					background-size: cover;
+					background-position: center;
+				}
+
+				img {
+					max-height: 150px;
+				}
+			}
+		}
+	}
+}
+
 #typo {
 	section {
 		&.typoarea {
