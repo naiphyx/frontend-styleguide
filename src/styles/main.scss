@@ -68,6 +68,10 @@ body {
 		margin-top: 50px;
 		height: 64px;
 
+		span {
+			margin: 0 20px;
+		}
+
 		span:first-of-type {
 			color: darken($highlightgreen, 10%);
 		}
