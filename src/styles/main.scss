@@ -39,6 +39,14 @@ body {
         text-align: justify;
      }
 
+     .runtext-ul {
+       list-style: none;
+
+       li {
+         margin-left: 80px;
+       }
+     }
+
       section {
         &.center {
           text-align: center;

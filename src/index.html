@@ -484,6 +484,7 @@
         </p>
       </article>
     </div>
+    <hr>
 
     <!-- CSS METHOLOGY -->
     <div id="methology">
@@ -503,7 +504,8 @@
           <h2>Naming Conventions</h2>
           <p class="runtext">
             The naming conventions for the single sass-files prescribes that every partial has to be names after the main UI-element it handles. To seperate partials from main files the partials have to start with an underscore.
-
+          </p>
+          <p class="runtext">
             All classes follow the spinal-case convention. This means that if a class name contains more than one word it they have to be seperated with a hyphen.
           </p>
         </article>
@@ -512,9 +514,13 @@
 
         <article id="code-style-rules">
           <h2>Code Style Rules</h2>
-          <p class="runtext">
-
-          </p>
+            <ul class="runtext-ul">
+              <li><strong>Indentation:</strong> 2 spaces</li>
+              <li><strong>Sass-File:</strong> write element before class</li>
+              <li><strong>Curly Braces:</strong> start directly after selectors</li>
+              <li><strong>Semicolon:</strong> has to be used in all style and script files</li>
+              <li><strong>Trailing Whitespaces:</strong> have to be avoided</li>
+            </ul>
         </article>
 
         <hr>
@@ -524,7 +530,6 @@
           <p class="runtext">
             Every UI-Element is defined in its own sass-file for a more clear arrangement. Every sass-file should be imported in the 'uielements.scss' file.
             Thereby the developers are able to choose the desired UI-Elements easily. Global and custom style rules can be defined in the main sass file.
-            UI-Element filenames should start with an underscore to show that the file should be imported.
             The sass files get combined to one main.css file in the 'dist' directory which has to be included in the html file.
           </p>
           <p class="runtext">
@@ -540,4 +545,6 @@
   <footer>
     <p class="center"><span>Magdalena Wimmer</span> &#183 <span>Viktoria Steiner</span> &#183 <span>Bernhard Steger</span></p>
   </footer>
+
 </body>
+</html>
