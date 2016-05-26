@@ -29,12 +29,21 @@ body {
     max-width: 800px;
     margin: 0 auto;
 
+    .divider {
+      width: 30px;
+      height: 30px;
+      background: $lightblue;
+      margin: 80px auto;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
     article {
       box-sizing: border-box;
       margin: 50px 0;
 
       .runtext {
-        margin: 0 auto 1em auto;
+        margin: 10px auto 40px auto;
         max-width: 70%;
         line-height: 20px;
         text-align: justify;
