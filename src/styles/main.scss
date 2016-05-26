@@ -36,10 +36,29 @@ body {
       .runtext {
         margin: 0 auto 1em auto;
         max-width: 70%;
+        line-height: 20px;
         text-align: justify;
-     }
 
-     .runtext-ul {
+        span.code-snippet {
+          font-family: $codefont;
+          background: #7291a2;
+          padding: 1px 3px;
+          color: $white;
+        }
+
+        a {
+          &:link, &:visited {
+            color: $darkblue;
+            text-decoration: none;
+          }
+
+          &:hover {
+            color: $lightblue;
+          }
+        }
+      }
+
+      .runtext-ul {
        list-style: none;
 
        li {
@@ -47,49 +66,49 @@ body {
        }
      }
 
-      section {
-        &.center {
-          text-align: center;
-        }
+     section {
+      &.center {
+        text-align: center;
+      }
 
-        &.white-background {
-          padding: 15px 30px;
-          background: $white;
-        }
+      &.white-background {
+        padding: 15px 30px;
+        background: $white;
+      }
 
-        &.darkblue-background {
-          padding: 30px;
-          background: $darkblue;
-        }
+      &.darkblue-background {
+        padding: 30px;
+        background: $darkblue;
+      }
 
-        &.lightgray-background {
-          padding: 30px;
-          background: $lightgray;
-        }
+      &.lightgray-background {
+        padding: 30px;
+        background: $lightgray;
       }
     }
   }
+}
 
-  footer {
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 50px;
-    height: 64px;
+footer {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  height: 64px;
 
-    span {
-      margin: 0 20px;
-    }
-
-    span:first-of-type {
-      color: darken($highlightgreen, 10%);
-    }
-
-    span:nth-of-type(2) {
-      color: $pink;
-    }
-
-    span:last-of-type {
-      color: $lightblue;
-    }
+  span {
+    margin: 0 20px;
   }
+
+  span:first-of-type {
+    color: darken($highlightgreen, 10%);
+  }
+
+  span:nth-of-type(2) {
+    color: $pink;
+  }
+
+  span:last-of-type {
+    color: $lightblue;
+  }
+}
 }
